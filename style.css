@@ -1,8 +1,28 @@
-.fade-in{
+.fade-in {
     animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.fontBackground {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(assets/font-background.jpg);
+}
