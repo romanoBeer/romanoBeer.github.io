@@ -1,0 +1,245 @@
+::selection{
+    background-color: #9900ff48;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.parallax {
+    pointer-events: none;
+    duration: 0.45s cubic-bezier(.2,.49,.32,.99);
+}
+
+.bg-img {
+    position: absolute;
+    z-index: 1;
+    min-width: 194.44%;
+    width: 194.44%;
+    height: 100vw;
+    top: 1.86%;
+    left: 50.69%;
+}
+
+.fog-1 {
+    position: absolute;
+    z-index: 2;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    width: 1900px;
+}
+
+.mountain-10 {
+    position: absolute;
+    z-index: 3;
+    width: 1900px;
+    top: calc(50% + 250px);
+    left: calc(50% + 300px);
+}
+
+.fog-2 {
+    position: absolute;
+    z-index: 4;
+    top: calc(50% - 95px);
+    left: calc(50% + 7px);
+    width: 1833px;
+}
+
+.mountain-9 {
+    position: absolute;
+    z-index: 5;
+    top: calc(50% + 200px);
+    left: calc(50% - 700px);
+    width: 600px;
+}
+
+.mountain-8 {
+    position: absolute;
+    z-index: 6;
+    top: calc(50% + 150px);
+    left: calc(50% - 350px);
+    width: 786px;
+}
+
+.fog-3 {
+    position: absolute;
+    z-index: 7;
+    top: calc(50% + 171px);
+    left: calc(50% + 29px);
+    width: 449px;
+}
+
+.mountain-7 {
+    position: absolute;
+    z-index: 8;
+    top: calc(50% + 134px);
+    left: calc(50% + 200px);
+    width: 515px;
+}
+
+.text {
+    position: absolute;
+    z-index: 12;
+    top: calc(50% - 130px);
+    left: calc(50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    pointer-events: auto;
+}
+
+.text h2 {
+    font-weight: 100;
+    font-size: 6.5rem;
+    line-height: 0.88;
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 0.88;
+}
+
+.mountain-6 {
+    position: absolute;
+    z-index: 10;
+    top: calc(50% + 200px);
+    left: calc(50% + 700px);
+    width: 600px;
+}
+
+.fog-4 {
+    position: absolute;
+    z-index: 11;
+    top: calc(50% + 242px);
+    left: calc(50% - 64px);
+    width: 543px;
+}
+
+.mountain-5 {
+    position: absolute;
+    z-index: 13;
+    top: calc(50% + 269px);
+    left: calc(50% + 0px);
+    width: 583px;
+}
+
+.fog-5 {
+    position: absolute;
+    z-index: 12;
+    top: calc(50% + 149px);
+    left: calc(50% - 28px);
+    width: 1435px;
+}
+
+.mountain-4 {
+    position: absolute;
+    z-index: 14;
+    top: calc(50% + 400px);
+    left: calc(50% - 600px);
+    width: 1000px;
+}
+
+.mountain-3 {
+    position: absolute;
+    z-index: 15;
+    top: calc(50% + 133px);
+    left: calc(50% + 900px);
+    width: 419px;
+}
+
+.fog-6 {
+    position: absolute;
+    z-index: 1.5;
+    top: calc(50% + 177px);
+    left: calc(50% - 30px);
+    width: 1418px;
+}
+
+.mountain-2 {
+    position: absolute;
+    z-index: 17;
+    top: calc(50% + 240px);
+    left: calc(50% + 350px);
+    width: 800px;
+}
+
+.mountain-1 {
+    position: absolute;
+    z-index: 18;
+    top: calc(50% + 120px);
+    left: calc(50% - 850px);
+    width: 450px;
+}
+
+.sun-rays {
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 595px;
+    pointer-events: none;
+}
+
+.black-shadow {
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.fog-1 {
+    position: absolute;
+    z-index: 21;
+    top: calc(100% - 355px);
+    left: 50%;
+    width: 1920px;
+}
+
+.vignette {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0, 0.7));
+    pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .text h1{
+        font-size: 5.8rem;
+    }
+
+    .text h2{
+        font-size: 4.7rem;
+    }
+}
+
+@media (max-width: 725px) {
+    .text h1{
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+
+    .text h2{
+        font-size: 4.1rem;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 520px) {
+    .text h1{
+        font-size: 3.3rem;
+    }
+
+    .text h2{
+        font-size: 2.6rem;
+    }
+}
