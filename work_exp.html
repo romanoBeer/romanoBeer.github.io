@@ -5,27 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navbar.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- <link rel="stylesheet" href="mouse_cursor.css"> -->
   <title>Work Experience</title>
 </head>
 
-<!-- <body class="cursor-image"> -->
-<!-- navbar -->
+<!--navbar-->
 <section class="z-50">
-  <div class="bg-black">
-    <div class="float-left">
-      <a href="index.html"><img
-          src="https://w0.peakpx.com/wallpaper/562/526/HD-wallpaper-duck-minimal-duck-minimalism-minimalist-artist-artwork-digital-art-dark-black-thumbnail.jpg"
-          class="h-16 hover:scale-125 duration-300 ease-in-out" /></a>
-    </div>
-    <div class="flex justify-end space-x-10 pr-10">
-      <div class="py-6 text-white hover:scale-125 duration-300 ease-in-out"><a href="index.html">Home</a></div>
-      <div class="py-6 text-white hover:scale-125 duration-300 ease-in-out"><a href="work_exp.html">Work Experience</a>
+  <nav class="navbar bg-black">
+    <!-- LOGO -->
+    <div class="logo"><a href="index.html"></a><img
+        src="https://w0.peakpx.com/wallpaper/562/526/HD-wallpaper-duck-minimal-duck-minimalism-minimalist-artist-artwork-digital-art-dark-black-thumbnail.jpg"
+        class="w-10"></div>
+    <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work_exp.html">Work Experience</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="education.html">Education</a></li>
       </div>
-      <div class="py-6 text-white hover:scale-125 duration-300 ease-in-out"><a href="contact.html">Contact Me</a></div>
-      <div class="py-6 text-white hover:scale-125 duration-300 ease-in-out"><a href="education.html">Education</a></div>
-    </div>
+    </ul>
+  </nav>
 </section>
 
 <!-- banner -->
