@@ -1,0 +1,22 @@
+.banner-img {
+    padding: 192px;
+}
+
+@media (max-width: 768px) {
+    .home-img {
+        display: none;
+    }
+
+    .home-banner {}
+
+    .banner-img {
+        padding: 100px;
+        width: 100%;
+        height: ;
+    }
+
+    .banner-text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
