@@ -6,12 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="banner.css">
+  <link rel="stylesheet" href="carousel.css">
   <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="js/particles.min.js"></script>
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
     data-id="beerromano" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF"
     data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="carousel.js"></script>
   <title>Home | Romano Beer</title>
 </head>
 
@@ -38,7 +45,7 @@
   <div id="particles-js" class="z-10"></div>
   <div class="px-6 py-12 md:px-12 bg-gray-950 text-white text-center lg:text-left z-0">
     <div class="container mx-auto xl:px-32">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="grid lg:grid-cols-2 gap-12 s-center">
         <div class="mt-12 lg:mt-0 z-20 home-banner">
           <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
             ROMANO BEER'S <br /><span class="text-blue-600">PORTFOLIO</span>
@@ -77,48 +84,25 @@
   </div>
 </section>
 
-<!-- Skills Carousel -->
-<!-- <section class="h-96 bg-black z-50">
-  <div class="flex">
-    <div>
-      <img src="assets/visual-studio-code-2019.png" class="w-32 pt-5">
-    </div>
-    <div class="bg-black">
-      <img src="assets/Csharp.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/html.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/css.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/wordpress.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/slack.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/trello.png" class="w-40">
-    </div>
-    <div>
-      <img src="assets/sql.png" class="w-32 pt-5">
-    </div>
-    <div>
-      <img src="assets/php.png" class="w-32 pt-5">
-    </div>
-    <div>
-      <img src="assets/visual-studio.png" class="w-32 pt-5">
-    </div>
-    <div>
-      <img src="assets/github.png" class="w-32 pt-5">
-    </div>
-    <div>
-      <img src="assets/filezilla.png" class="w-32 pt-5">
-    </div>
-  </div>
-</section> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
+<!-- Skills Carousel -->
+<section class="bg-black">
+  <div class="owl-carousel owl-theme">
+    <img src="assets/visual-studio-code-2019.png" class="item">
+    <img src="assets/Csharp.png" class="item">
+    <img src="assets/html.png" class="item">
+    <img src="assets/css.png" class="item">
+    <img src="assets/wordpress.png" class="w-40 item">
+    <img src="assets/slack.png" class="item">
+    <img src="assets/trello.png" class="item">
+    <img src="assets/sql.png" class="item">
+    <img src="assets/php.png" class="item">
+    <img src="assets/visual-studio.png" class="item">
+    <img src="assets/github.png" class="item">
+    <img src="assets/filezilla.png" class="item">
+  </div>
+</section>
 
 <!--Footer-->
 <section class="z-50">
