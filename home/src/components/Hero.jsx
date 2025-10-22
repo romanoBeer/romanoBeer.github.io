@@ -1,6 +1,7 @@
 import romano_image from "../assets/images/Romano Self.png";
 import "../css/Hero.css";
 import LiquidEther from "../assets/reactbits/LiquidEther.jsx";
+import Button from "./Button.jsx";
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
           development services to clients, and committed to staying up to date
           with the latest web development technologies and trends.
         </p>
-        <button className="hero-button"><a href="">Contact</a></button>
+        <Button Text={"Contact"} Link={""}/>
       </div>
 
       <div className="grow1">
