@@ -27,19 +27,15 @@ function Hero() {
       </div>
 
       <div className="grow1 text-container">
-        <h1 className="text">Hi, I'm Romano</h1>
-        <h2 className="text">Full-Stack Developer.</h2>
-        <p className="text">
-          My name is Romano Beer, I'm a experienced web developer with a strong
-          background in C#, HTML, and CSS, and a proven track record of
-          delivering high-quality web development projects. Skilled in managing
-          servers for websites, ensuring their security, performance, and
-          availability. Proficient in various content management systems and
-          e-commerce platforms. Currently employed at OM & Barker, providing web
-          development services to clients, and committed to staying up to date
-          with the latest web development technologies and trends.
+        <h1 className="text heading">Hi, I'm Romano</h1>
+        <h2 className="text occupation">Full-Stack Developer.</h2>
+        <p className="text summary">
+          Experienced in React, C#, HTML, CSS, and WordPress, delivering secure,
+          high-performing websites with expertise in server management and
+          e-commerce platforms. Currently at Hive Digital Marketing, building
+          modern, scalable web solutions.
         </p>
-        <Button Text={"Contact"} Link={""}/>
+        <Button Text={"Contact"} Link={""} />
       </div>
 
       <div className="grow1">

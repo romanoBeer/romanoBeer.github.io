@@ -1,9 +1,7 @@
 .layout {
   width: 100%;
-
   display: flex;
   gap: 10px;
-
   position: relative;
   overflow: hidden;
 }
@@ -30,21 +28,71 @@
 }
 
 .main-container {
+  border: 4px solid #00b7ff;
+  box-shadow: rgba(65, 246, 252, 0.281) 0 15px 30px -5px;
   border-radius: 10px;
-  padding-top: 20px;
   padding-bottom: 0px;
-  background-color: #060010;
+  background-image: repeating-linear-gradient(
+      240deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      285deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      195deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      330deg,
+      hsla(64, 83%, 54%, 0.05) 0px,
+      hsla(64, 83%, 54%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(64, 83%, 54%, 0.05) 11px,
+      hsla(64, 83%, 54%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(285deg, rgb(41, 27, 158), rgb(249, 77, 212));
 }
 
 .text {
-    font-family: Montserrat;
-    color: white;
+  font-family: Montserrat;
+  color: white;
+}
+
+.summary {
+  line-height: 2.2;
 }
 
 .text-container {
   margin: auto;
   width: 50%;
   padding-left: 200px;
+  padding-right: 200px;
 }
 
 .grow1 {
@@ -53,9 +101,23 @@
 
 .romano-image {
   width: 800px;
-  margin-bottom: -4px;
+  margin-bottom: -6px;
 }
 
 .hero-button {
-    pointer-events: auto;
+  pointer-events: auto;
+}
+
+.heading {
+  font-size: 68px;
+  line-height: 0.5;
+}
+
+.occupation {
+  font-size: 35px;
+  line-height: 1;
+  background-image: linear-gradient(60deg, #ffffff , #00b7ff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
