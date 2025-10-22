@@ -1,4 +1,4 @@
-import romano_image from "../assets/images/Romano Self.png";
+import romano_image from "../assets/images/Romano-1024x1024.png";
 import "../css/Hero.css";
 import LiquidEther from "../assets/reactbits/LiquidEther.jsx";
 import Button from "./Button.jsx";
