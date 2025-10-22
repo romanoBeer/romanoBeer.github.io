@@ -1,12 +1,34 @@
-import reactLogo from "../assets/Romano Self.png";
+import romano_image from "../assets/images/Romano Self.png";
+import "../css/Hero.css";
+import LiquidEther from "../assets/reactbits/LiquidEther.jsx";
 
 function Hero() {
   return (
-    <div>
-      <div>
-        <h1>Hi, I'm Romano</h1>
-        <h2>Full-Stack Developer.</h2>
-        <p>
+    <div className="layout main-container">
+      <div className="liquid-background">
+        <LiquidEther
+          colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
+          mouseForce={20}
+          cursorSize={100}
+          isViscous={false}
+          viscous={30}
+          iterationsViscous={32}
+          iterationsPoisson={32}
+          resolution={0.5}
+          isBounce={false}
+          autoDemo={true}
+          autoSpeed={0.5}
+          autoIntensity={2.2}
+          takeoverDuration={0.25}
+          autoResumeDelay={3000}
+          autoRampDuration={0.6}
+        />
+      </div>
+
+      <div className="grow1 text-container">
+        <h1 className="text">Hi, I'm Romano</h1>
+        <h2 className="text">Full-Stack Developer.</h2>
+        <p className="text">
           My name is Romano Beer, I'm a experienced web developer with a strong
           background in C#, HTML, and CSS, and a proven track record of
           delivering high-quality web development projects. Skilled in managing
@@ -16,13 +38,11 @@ function Hero() {
           development services to clients, and committed to staying up to date
           with the latest web development technologies and trends.
         </p>
-        <button>Contact</button>
+        <button className="hero-button"><a href="">Contact</a></button>
       </div>
-      <div>
-        <img
-          src={reactLogo}
-          alt="Romano"
-        />
+
+      <div className="grow1">
+        <img className="romano-image" src={romano_image} alt="Romano" />
       </div>
     </div>
   );

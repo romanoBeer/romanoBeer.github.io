@@ -1,0 +1,61 @@
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 10px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: auto;
+}
+
+.liquid-background canvas {
+  opacity: 0.9;
+  mix-blend-mode: screen;
+}
+
+.layout > *:not(.liquid-background) {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.main-container {
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #060010;
+}
+
+.text {
+    font-family: Montserrat;
+    color: white;
+}
+
+.text-container {
+  margin: auto;
+  width: 50%;
+  padding-left: 200px;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.romano-image {
+  width: 800px;
+  margin-bottom: -4px;
+}
+
+.hero-button {
+    pointer-events: auto;
+}
