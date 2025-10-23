@@ -5,7 +5,7 @@ import Button from "./Button";
 function Menu() {
   return (
     <div className="menu">
-      <Button Text={"About"}/>
+      <Button Text={"About"} Link={"#about"}/>
       <Button Text={"Recent Projects"}/>
       <Button Text={"Contact"}/>
       <Button Text={"Work Experience"}/>

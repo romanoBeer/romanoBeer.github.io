@@ -1,0 +1,21 @@
+.about {
+  color: white;
+  font-family: Montserrat;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-heading {
+  font-size: 80px;
+  background-image: linear-gradient(60deg, #ffffff, #00b7ff 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+.text-center {
+  text-align: center;
+}
