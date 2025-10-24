@@ -1,21 +1,22 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import "../css/Carousel.css";
+import { Assets } from "./Assets";
 
 const items = [
-  { name: "HTML", img: "https://via.placeholder.com/40" },
-  { name: "PHP", img: "https://via.placeholder.com/40" },
-  { name: "C#", img: "https://via.placeholder.com/40" },
-  { name: "CSS", img: "https://via.placeholder.com/40" },
-  { name: "React.js", img: "https://via.placeholder.com/40" },
-  { name: "JavaScript", img: "https://via.placeholder.com/40" },
-  { name: "WordPress", img: "https://via.placeholder.com/40" },
-  { name: "MySQL", img: "https://via.placeholder.com/40" },
-  { name: "Three.js", img: "https://via.placeholder.com/40" },
-  { name: "Docker", img: "https://via.placeholder.com/40" },
-  { name: "Firebase", img: "https://via.placeholder.com/40" },
-  { name: "Tailwind CSS", img: "https://via.placeholder.com/40" },
-  { name: "Woocommerce", img: "https://via.placeholder.com/40" },
+  { name: "HTML", img: Assets.Html },
+  { name: "PHP", img: Assets.PHP },
+  { name: "C#", img: Assets.CSharp },
+  { name: "CSS", img: Assets.CSS },
+  { name: "React.js", img: Assets.ReactLogo },
+  // { name: "JavaScript", img: Assets. },
+  { name: "WordPress", img: Assets.WordPress },
+  { name: "MySQL", img: Assets.MySQL },
+  { name: "Three.js", img: Assets.ThreeJS },
+  { name: "Docker", img: Assets.Docker },
+  // { name: "Firebase", img: Assets. },
+  { name: "Tailwind CSS", img: Assets.Tailwind },
+  { name: "Woocommerce", img: Assets.Woocommerce },
 ];
 
 function Carousel() {
