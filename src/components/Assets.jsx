@@ -11,6 +11,7 @@ import ThreeJS from "../assets/images/logos/three-js-icon.webp";
 import PHP from "../assets/images/logos/web.webp";
 import Woocommerce from "../assets/images/logos/woocommerce.webp";
 import WordPress from "../assets/images/logos/wordpress.webp";
+import Firebase from "../assets/images/logos/firebase.webp"
 
 export const Assets = {
     CSharp,
@@ -24,5 +25,6 @@ export const Assets = {
     ThreeJS,
     PHP,
     Woocommerce,
-    WordPress
+    WordPress,
+    Firebase
 }
