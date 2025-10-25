@@ -5,6 +5,9 @@ import "./css/main.css";
 import Menu from "./components/Menu";
 import HeadWithSub from "./components/HeadWithSub";
 import Carousel from "./components/Carousel";
+import Grid from "./components/Grid";
+import Projects from "./components/Projects";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   return (
@@ -18,6 +21,11 @@ function App() {
         }
       />
       <Carousel />
+      <HeadWithSub Head={"My Projects"} />
+      <Grid
+        items={Projects}
+        renderItem={(project) => <ProjectCard project={project} />}
+      />
     </>
   );
 }

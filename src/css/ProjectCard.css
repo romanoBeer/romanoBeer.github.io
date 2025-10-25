@@ -1,0 +1,39 @@
+.project-card {
+  /* background-color: red; */
+  /* border: 1px solid white; */
+  font-family: Montserrat;
+  font-size: 16px;
+  color: white;
+}
+
+.project-background {
+    background-color: pink;
+    padding: 25px;
+    border-radius: 20px;
+    /* border: 2px solid blue; */
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    /* margin-bottom: 10px; */
+}
+
+.project-text {
+  display: flex;
+  margin-inline: 20px;
+}
+
+.project-image {
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.project-title {
+    width: 100%;
+}
+
+.project-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding: 10px;
+}
