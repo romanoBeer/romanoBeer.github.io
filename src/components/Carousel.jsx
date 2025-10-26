@@ -1,22 +1,22 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import "../css/Carousel.css";
-import { Assets } from "./Assets";
+import { Skills } from "./Assets";
 
 const items = [
-  { name: "HTML", img: Assets.Html },
-  { name: "PHP", img: Assets.PHP },
-  { name: "C#", img: Assets.CSharp },
-  { name: "CSS", img: Assets.CSS },
-  { name: "React.js", img: Assets.ReactLogo },
-  { name: "JavaScript", img: Assets.JS },
-  { name: "WordPress", img: Assets.WordPress },
-  { name: "MySQL", img: Assets.MySQL },
-  { name: "Three.js", img: Assets.ThreeJS },
-  { name: "Docker", img: Assets.Docker },
-  { name: "Firebase", img: Assets.Firebase },
-  { name: "Tailwind CSS", img: Assets.Tailwind },
-  { name: "Woocommerce", img: Assets.Woocommerce },
+  { name: "HTML", img: Skills.Html },
+  { name: "PHP", img: Skills.PHP },
+  { name: "C#", img: Skills.CSharp },
+  { name: "CSS", img: Skills.CSS },
+  { name: "React.js", img: Skills.ReactLogo },
+  { name: "JavaScript", img: Skills.JS },
+  { name: "WordPress", img: Skills.WordPress },
+  { name: "MySQL", img: Skills.MySQL },
+  { name: "Three.js", img: Skills.ThreeJS },
+  { name: "Docker", img: Skills.Docker },
+  { name: "Firebase", img: Skills.Firebase },
+  { name: "Tailwind CSS", img: Skills.Tailwind },
+  { name: "Woocommerce", img: Skills.Woocommerce },
 ];
 
 function Carousel() {

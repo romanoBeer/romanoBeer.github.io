@@ -12,7 +12,7 @@ import ProjectCard from "./components/ProjectCard";
 function App() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Menu />
       <HeadWithSub
         Head={"About"}

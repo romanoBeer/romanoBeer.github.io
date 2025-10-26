@@ -1,24 +1,24 @@
 import React from "react";
-import { Assets } from "./Assets";
+import { ProjectImages } from "./Assets";
 
 const Projects = [
   {
-    title: "Portfolio Website",
+    title: "intell.space",
     description: "Deployed",
-    image: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    github: "#",
+    image: ProjectImages.IntellSpace,
+    github: "https://intell.space/",
   },
   {
-    title: "Task Manager",
+    title: "bookinghub365.com",
     description: "In Development",
-    image: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    github: "#",
+    image: ProjectImages.BookingHub,
+    github: "https://bookinghub365.com/",
   },
   {
-    title: "Task Manager",
-    description: "In Development",
-    image: "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    github: "#",
+    title: "intell.space",
+    description: "Deployed",
+    image: ProjectImages.IntellSpace,
+    github: "https://intell.space/",
   },
 ];
 

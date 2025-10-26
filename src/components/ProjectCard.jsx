@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           <p>{project.description}</p>
         </div>
         <div className="project-button">
-          <Button Text={'</>'}/>
+          <Button Text={'</>'} Link={project.github}/>
         </div>
       </div>
     </div>

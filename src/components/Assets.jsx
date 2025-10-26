@@ -11,9 +11,11 @@ import ThreeJS from "../assets/images/logos/three-js-icon.webp";
 import PHP from "../assets/images/logos/web.webp";
 import Woocommerce from "../assets/images/logos/woocommerce.webp";
 import WordPress from "../assets/images/logos/wordpress.webp";
-import Firebase from "../assets/images/logos/firebase.webp"
+import Firebase from "../assets/images/logos/firebase.webp";
+import IntellSpace from "../assets/images/projects/intellspace.webp";
+import BookingHub from "../assets/images/projects/booking-hub.webp"
 
-export const Assets = {
+export const Skills = {
     CSharp,
     Html,
     CSS,
@@ -27,4 +29,9 @@ export const Assets = {
     Woocommerce,
     WordPress,
     Firebase
+}
+
+export const ProjectImages = {
+    IntellSpace,
+    BookingHub,
 }

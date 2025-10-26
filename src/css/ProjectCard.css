@@ -21,8 +21,8 @@
 }
 
 .project-image {
-  max-height: 300px;
-  object-fit: contain;
+  height: 250px;
+  object-fit: cover;
   border-radius: 15px;
 }
 
@@ -35,5 +35,5 @@
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
-    padding: 10px;
+    padding-bottom: 10px;
 }
