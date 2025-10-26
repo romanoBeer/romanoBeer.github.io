@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Button = ({ Text, Link }) => {
   return (
     <StyledWrapper>
-      <a href={Link}>
+      <a className="button-link" href={Link}>
         <button>
           <span className="text">{Text}</span>
         </button>
@@ -37,6 +37,10 @@ const StyledWrapper = styled.div`
     white-space: nowrap;
     cursor: pointer;
     transition: all 0.3s;
+  }
+
+  .button-link {
+    text-decoration: none;
   }
 
   button:active,

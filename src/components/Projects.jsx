@@ -15,10 +15,10 @@ const Projects = [
     github: "https://bookinghub365.com/",
   },
   {
-    title: "intell.space",
-    description: "Deployed",
-    image: ProjectImages.IntellSpace,
-    github: "https://intell.space/",
+    title: "3D Platformer",
+    description: "In Development",
+    image: ProjectImages.Platformer,
+    github: "https://github.com/romanoBeer/3d_platformer",
   },
 ];
 

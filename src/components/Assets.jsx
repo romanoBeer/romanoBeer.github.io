@@ -13,7 +13,8 @@ import Woocommerce from "../assets/images/logos/woocommerce.webp";
 import WordPress from "../assets/images/logos/wordpress.webp";
 import Firebase from "../assets/images/logos/firebase.webp";
 import IntellSpace from "../assets/images/projects/intellspace.webp";
-import BookingHub from "../assets/images/projects/booking-hub.webp"
+import BookingHub from "../assets/images/projects/booking-hub.webp";
+import Platformer from "../assets/images/projects/platformer.webp"
 
 export const Skills = {
     CSharp,
@@ -34,4 +35,5 @@ export const Skills = {
 export const ProjectImages = {
     IntellSpace,
     BookingHub,
+    Platformer,
 }
