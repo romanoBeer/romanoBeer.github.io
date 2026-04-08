@@ -1,105 +1,7 @@
-# 🧑‍💻 Romano Beer — Dev Dashboard
+# Romano Beer
+### Building fast, clean, scalable digital experiences
 
-STATUS       → ONLINE  
-ROLE         → Freelance Developer  
-FOCUS        → WordPress • eCommerce • UI Systems  
-LOCATION     → South Africa  
-EXPERIENCE   → 3+ Years  
-
----
-
-## 📊 SYSTEM METRICS
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)  
-![Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME)
-
----
-
-## ⚙️ ACTIVE MODULES
-
-**CORE**
-- ✔ WordPress Development  
-- ✔ WooCommerce Systems  
-- ✔ Performance Optimization  
-- ✔ SEO Fixes  
-
-**FRONTEND**
-- ✔ Flutter  
-- ✔ Three.js  
-- ✔ Clean UI Implementation  
-
-**LEARNING**
-- → React  
-- → Vue  
-- → Salesforce  
-
-**GAME DEV**
-- ✔ Godot  
-- ✔ GDScript  
-
----
-
-## 🚀 DEPLOYMENTS
-
-### 🎮 3D Platformer
-ENGINE → Godot  
-LANG → GDScript  
-STATUS → COMPLETE  
-
-- Custom mechanics  
-- Level systems  
-- Built from scratch  
-
----
-
-### 🌊 Sea La Vie Fishing Charter  
-https://sealaviecharter.co.za  
-
-STACK → WordPress  
-FEATURES → Booking System  
-STATUS → LIVE  
-
-- Full website build  
-- UX + performance focused  
-
----
-
-### 🧩 Intell Space  
-
-STACK → WordPress + Three.js  
-STATUS → LIVE  
-
-- Interactive 3D frontend  
-- Custom integrations  
-
----
-
-## 📈 PERFORMANCE LOG
-
-- 🚀 Improved site speed across multiple builds  
-- 🔍 SEO structure fixes implemented  
-- 💰 Conversion-focused UX improvements  
-- 🛠️ End-to-end project delivery  
-
----
-
-## 🏢 CLIENT NETWORK
-
-- Intell Space  
-- Sea La Vie Fishing Charter  
-- Booking Hub 365  
-
----
-
-## 🧬 BACKGROUND PROCESSES
-
-- 🏎️ Sim Racing → ACTIVE  
-- 🚁 FPV Drones → ACTIVE  
-- ⚙️ Building Stuff → ALWAYS RUNNING  
-
----
-
-## 📡 NETWORK
+Web developer with 3 years of experience crafting WordPress sites, mobile apps, games, and custom web applications — end to end.
 
 📧 beerromano@gmail.com  
 🌐 https://beerr.co.za  
@@ -107,7 +9,84 @@ STATUS → LIVE
 
 ---
 
-## 👀 TRAFFIC
+## ⚡ Tech Stack
+
+**Frontend:** Flutter, WordPress, WooCommerce, Three.js  
+**Backend:** PHP, Custom WordPress Development  
+**Learning:** React, Vue, Salesforce  
+**Game Dev:** Godot, GDScript  
+
+---
+
+## 🚀 What I Do
+
+- ⚡ Fast, optimized WordPress builds  
+- 🛒 Scalable eCommerce (WooCommerce)  
+- 🎯 Clean UI / UX implementation  
+- 🔧 Custom functionality & integrations  
+- 📈 Performance + SEO improvements  
+
+---
+
+## 🧠 Selected Projects
+
+### 🎮 3D Platformer
+Game developed in Godot using GDScript  
+- Custom mechanics  
+- Level design & logic systems  
+- Built from scratch  
+
+---
+
+### 🌊 Sea La Vie Fishing Charter  
+https://sealaviecharter.co.za  
+
+- Full WordPress build  
+- Booking system integration  
+- Performance + UX focused  
+
+---
+
+### 🧩 Intell Space  
+WordPress + Three.js integration  
+
+- Interactive 3D elements  
+- Custom frontend experience  
+- Blending web + immersive visuals  
+
+---
+
+## 📈 Impact
+
+- 🚀 Improved site speed & performance  
+- 🔍 SEO fixes & structure optimization  
+- 💰 Conversion-focused builds  
+- 🛠️ End-to-end project delivery  
+
+---
+
+## 🏢 Clients
+
+- Intell Space  
+- Sea La Vie Fishing Charter  
+- Booking Hub 365  
+
+---
+
+## 🧬 Beyond Code
+
+- 🏎️ Sim racing  
+- 🚁 FPV drones  
+
+---
+
+## 📊 GitHub Stats
+
+![Romano's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+
+---
+
+## 👀 Profile Views
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_USERNAME)
 
