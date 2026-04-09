@@ -59,6 +59,24 @@ body {
   border-radius: 4px;
 }
 
+.to_top_button {
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 20px;
+  padding: 9px 12px;
+  background: var(--accent);
+}
+
+.to_top_button:hover {
+  box-shadow: 0 0 12px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+.arrow_up {
+  color: var(--bg-base);
+}
+
 /* Top Menu */
 
 .top_menu {
