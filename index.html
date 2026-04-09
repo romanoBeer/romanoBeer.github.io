@@ -24,20 +24,26 @@
         <span class="menu_logo_dot"></span>
         <a href="#home" class="menu_title">beerr.co.za</a>
       </div>
-      <ul class="menu_links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Hire Me</a></li>
-      </ul>
-      <button
-        class="menu_hamburger"
-        id="menu-hamburger"
-        aria-label="Toggle Menu"
-      >
-        <span></span><span></span><span></span>
-      </button>
+      <div style="display: flex; align-items: center; gap: 24px">
+        <ul class="menu_links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Hire Me</a></li>
+        </ul>
+        <button
+          class="menu_hamburger"
+          id="menu-hamburger"
+          aria-label="Toggle Menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme_toggle" id="theme-toggle">
+          <span class="mdi mdi-weather-night theme_toggle_dark"></span>
+          <span class="mdi mdi-white-balance-sunny theme_toggle_light"></span>
+        </button>
+      </div>
     </nav>
 
     <!-- hero section -->
@@ -766,6 +772,24 @@
         link.addEventListener("click", function () {
           document.querySelector(".menu_links").classList.remove("open");
         });
+      });
+
+      // Theme toggle
+      const themeToggle = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      // Load saved theme
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light") {
+        body.classList.add("light-theme");
+      }
+
+      themeToggle.addEventListener("click", function () {
+        body.classList.toggle("light-theme");
+        const currentTheme = body.classList.contains("light-theme")
+          ? "light"
+          : "dark";
+        localStorage.setItem("theme", currentTheme);
       });
 
       // Scroll reveal
