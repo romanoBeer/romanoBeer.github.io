@@ -466,7 +466,6 @@ section {
   font-size: 1rem;
   color: var(--text-secondary);
   font-weight: 300;
-  max-width: 500px;
   line-height: 1.7;
   margin-bottom: 64px;
 }
