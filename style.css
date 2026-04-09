@@ -78,6 +78,7 @@ body {
   z-index: 999;
 }
 
+/* don't want decoration */
 .menu_title {
   color: var(--text-primary) !important;
   text-decoration: none;
