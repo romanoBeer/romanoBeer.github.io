@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+      href="node_modules/@mdi/font/css/materialdesignicons.min.css"
     />
     <title>Document</title>
   </head>
 
   <body>
-    <!_ top menu _>
+    <!-- top menu -->
     <nav class="top_menu">
       <div class="menu_logo">
         <span class="menu_logo_dot"></span>
@@ -58,7 +58,7 @@
         <div class="hero_image_frame">
           <img
             class="hero_image"
-            src="assets/romano self.webp"
+            src="assets/self_portrait.webp"
             alt="Portrait of Romano Beer"
           />
           <div class="hero_image_overlay"></div>
@@ -318,7 +318,7 @@
 
     <div class="divider"></div>
 
-    <!_ projects section _>
+    <!-- projects section -->
     <section class="projects" id="projects">
       <div class="section_label reveal">Work</div>
       <h2 class="section_title reveal">Selected projects.</h2>
@@ -477,7 +477,7 @@
 
     <div class="divider"></div>
 
-    <!_ experience section _>
+    <!-- experience section -->
     <section class="experience" id="experience">
       <div class="experience_layout reveal">
         <div class="experience_sidebar">
@@ -663,5 +663,18 @@
         </a>
       </div>
     </footer>
+
+    <script>
+      document.getElementById('menu-hamburger').addEventListener('click', function() {
+        document.querySelector('.menu_links').classList.toggle('open');
+      });
+
+      // Close menu when a link is clicked
+      document.querySelectorAll('.menu_links a').forEach(link => {
+        link.addEventListener('click', function() {
+          document.querySelector('.menu_links').classList.remove('open');
+        });
+      });
+    </script>
   </body>
 </html>
