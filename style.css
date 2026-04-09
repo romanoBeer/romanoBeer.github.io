@@ -736,14 +736,9 @@ section {
 .project_card_preview {
   height: 220px;
   display: flex;
-  align-self: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-}
-
-.project_card_featured .project_card_preview {
-  height: 280px;
 }
 
 .preview_bg_1 {
@@ -865,7 +860,8 @@ section {
 
 .project_card:hover .stack_tag {
   border-color: var(--border-accent);
-  color: var(--text-secondary);
+  color: var(--accent);
+  background: var(--accent-dim);
 }
 
 .project_card_footer {
@@ -1367,4 +1363,16 @@ section {
   .hero_stats {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
