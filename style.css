@@ -78,6 +78,11 @@ body {
   z-index: 999;
 }
 
+.menu_title {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
 .menu_logo {
   font-family: var(--font-display);
   font-weight: 800;
